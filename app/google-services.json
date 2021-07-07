@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "436905429927",
+    "project_id": "bustedapp-d5335",
+    "storage_bucket": "bustedapp-d5335.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436905429927:android:1cf282ba3361f4d003c482",
+        "android_client_info": {
+          "package_name": "com.example.bustedapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436905429927-negcg6m1c5j4p3aoc9mc6ig10if89nte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bustedapp",
+            "certificate_hash": "02908f9b4746b690343b9233c73f15da14637b77"
+          }
+        },
+        {
+          "client_id": "436905429927-79hli5289gbnkq6pevl2s9bl9efj1col.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTzxtkt0dD9AXXqMRpcV9mEN1sWzef3a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436905429927-79hli5289gbnkq6pevl2s9bl9efj1col.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

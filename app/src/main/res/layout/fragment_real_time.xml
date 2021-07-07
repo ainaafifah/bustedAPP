@@ -1,0 +1,40 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".realTimeFragment"
+     android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Real-Time Data"
+        android:textStyle="bold"/>
+
+<!--     <ListView-->
+<!--         android:id="@+id/myListView"-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="match_parent"-->
+<!--         android:padding="5dp"/>-->
+
+     <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/wifi_list"
+         android:layout_width="match_parent"
+         android:layout_height="560dp"
+         tools:layout_editor_absoluteX="165dp"
+         tools:layout_editor_absoluteY="230dp" />
+
+     <Button
+         android:id="@+id/reportButton"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="200dp"
+         android:paddingLeft="40dp"
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:text="Generate Report"/>
+
+ </LinearLayout>
+
